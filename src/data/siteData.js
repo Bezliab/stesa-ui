@@ -11,27 +11,40 @@ export const siteConfig = {
   university: "University of Ibadan",
   email: "dste@ui.edu.ng",
   phone: "+234 802 345 6789",
-  address: "Faculty of Education Building, University of Ibadan, Ibadan, Oyo State, Nigeria",
+  address:
+    "Faculty of Education Building, University of Ibadan, Ibadan, Oyo State, Nigeria",
   officeHours: "Monday – Friday: 8:00 AM – 4:00 PM",
 };
 
 export const navLinks = [
-  { label: "About", href: "/about", children: [
-    { label: "History & Overview", href: "/about#history" },
-    { label: "Vision & Mission", href: "/about#vision" },
-    { label: "Leadership", href: "/about#leadership" },
-  ]},
+  {
+    label: "About",
+    href: "/about",
+    children: [
+      { label: "History & Overview", href: "/about#history" },
+      { label: "Vision & Mission", href: "/about#vision" },
+      { label: "Leadership", href: "/about#leadership" },
+    ],
+  },
   { label: "Programmes", href: "/programmes" },
-  { label: "People", href: "/people", children: [
-    { label: "Academic Staff", href: "/people#academic" },
-    { label: "Non-Academic Staff", href: "/people#non-academic" },
-  ]},
+  {
+    label: "People",
+    href: "/people",
+    children: [
+      { label: "Academic Staff", href: "/people#academic" },
+      { label: "Non-Academic Staff", href: "/people#non-academic" },
+    ],
+  },
   { label: "Research", href: "/research" },
   { label: "Admissions", href: "/admissions" },
-  { label: "News & Events", href: "/news", children: [
-    { label: "News & Announcements", href: "/news" },
-    { label: "Events", href: "/events" },
-  ]},
+  {
+    label: "News & Events",
+    href: "/news",
+    children: [
+      { label: "News & Announcements", href: "/news" },
+      { label: "Events", href: "/events" },
+    ],
+  },
   { label: "Students", href: "/students" },
   { label: "Gallery", href: "/gallery" },
   { label: "Contact", href: "/contact" },
@@ -42,61 +55,127 @@ export const programmes = [
     id: 1,
     level: "Undergraduate",
     degree: "B.Ed.",
-    title: "Science Education",
+    title: "Biology Education",
     duration: "4 Years",
-    description: "Prepares students to become effective science educators with deep subject mastery in Biology, Chemistry, Physics, and Integrated Science.",
-    tracks: ["Biology Education", "Chemistry Education", "Physics Education", "Integrated Science Education"],
+    description:
+      "Prepares future biology educators with deep content knowledge, practical teaching skills, and a commitment to fostering scientific literacy and environmental stewardship.",
+    tracks: ["Biology Education", "Integrated Science Education"],
     icon: "🔬",
   },
   {
     id: 2,
     level: "Undergraduate",
     degree: "B.Ed.",
-    title: "Computer Science Education",
+    title: "Chemistry Education",
     duration: "4 Years",
-    description: "Equips future educators with computational thinking, programming skills, and pedagogical strategies to teach technology effectively.",
-    tracks: ["Programming & Software", "IT Education", "Robotics & STEM"],
-    icon: "💻",
+    description:
+      "Equips aspiring chemistry teachers with comprehensive content mastery, laboratory skills, and pedagogical strategies for effective chemistry instruction.",
+    tracks: ["Chemistry Education", "Integrated Science Education"],
+    icon: "⚗️",
   },
   {
     id: 3,
     level: "Undergraduate",
     degree: "B.Ed.",
+    title: "Computer Science Education",
+    duration: "4 Years",
+    description:
+      "Equips future educators with computational thinking, programming skills, and pedagogical strategies to teach technology effectively.",
+    tracks: ["Computer Science Education", "STEM"],
+    icon: "💻",
+  },
+  {
+    id: 4,
+    level: "Undergraduate",
+    degree: "B.Ed.",
     title: "Mathematics Education",
     duration: "4 Years",
-    description: "Develops skilled mathematics teachers grounded in both advanced mathematics and evidence-based pedagogical approaches.",
+    description:
+      "Develops skilled mathematics teachers grounded in both advanced mathematics and evidence-based pedagogical approaches.",
     tracks: ["Pure Mathematics", "Applied Mathematics", "Statistics Education"],
     icon: "📐",
   },
   {
-    id: 4,
+    id: 5,
+    level: "Undergraduate",
+    degree: "B.Ed.",
+    title: "Physics Education",
+    duration: "4 Years",
+    description:
+      "Prepares future physics educators with deep content knowledge, practical teaching skills, and a commitment to fostering scientific literacy and inquiry.",
+    tracks: ["Physics Education", "Integrated Science Education"],
+    icon: "🌌",
+  },
+  {
+    id: 6,
     level: "Postgraduate",
     degree: "M.Ed.",
-    title: "Science Education",
+    title: "Computer Science Education",
     duration: "18 Months",
-    description: "An advanced programme exploring contemporary issues in science education, curriculum development, and research methodology.",
+    description:
+      "An advanced programme for educators seeking to deepen their expertise in computer science education, curriculum development, and educational technology integration.",
     tracks: ["Curriculum Studies", "Science Teacher Education", "STEM Policy"],
     icon: "🧪",
   },
   {
-    id: 5,
+    id: 7,
     level: "Postgraduate",
     degree: "M.Ed.",
-    title: "Technology Education",
+    title: "Educational Technology",
     duration: "18 Months",
-    description: "Focuses on the integration of emerging technologies in educational settings, preparing leaders for digital transformation in education.",
-    tracks: ["EdTech & Innovation", "Digital Pedagogy", "Technical Vocational Education"],
+    description:
+      "Focuses on the integration of emerging technologies in educational settings, preparing leaders for digital transformation in education.",
+    tracks: [
+      "EdTech & Innovation",
+      "Digital Pedagogy",
+      "Technical Vocational Education",
+    ],
     icon: "⚙️",
   },
   {
-    id: 6,
+    id: 8,
+    level: "Postgraduate",
+    degree: "M.Ed.",
+    title: "Mathematics Education",
+    duration: "18 Months",
+    description:
+      "An advanced programme delving into mathematics education research, curriculum design, and pedagogical strategies for diverse learners.",
+    tracks: [
+      "Mathematics Curriculum & Assessment",
+      "Mathematics Teacher Education",
+      "Mathematics Anxiety & Motivation",
+    ],
+    icon: "📊",
+  },
+  {
+    id: 9,
     level: "Doctoral",
     degree: "Ph.D.",
     title: "Science & Technology Education",
     duration: "3–5 Years",
-    description: "A rigorous research-focused programme producing scholars and innovators who advance the frontiers of science and technology education.",
-    tracks: ["Research & Policy", "Curriculum Theory", "Teacher Professional Development"],
+    description:
+      "A rigorous research-focused programme producing scholars and innovators who advance the frontiers of science and technology education.",
+    tracks: [
+      "Research & Policy",
+      "Curriculum Theory",
+      "Teacher Professional Development",
+    ],
     icon: "🎓",
+  },
+  {
+    id: 10,
+    level: "Doctoral",
+    degree: "Ph.D.",
+    title: "Educational Technology",
+    duration: "3–5 Years",
+    description:
+      "A research-intensive programme focused on the design, implementation, and evaluation of educational technologies in diverse learning environments.",
+    tracks: [
+      "Learning Analytics & AI in Education",
+      "EdTech Design & Evaluation",
+      "Digital Equity & Inclusion",
+    ],
+    icon: "🤖",
   },
 ];
 
@@ -108,7 +187,11 @@ export const academicStaff = [
     specialization: "Science Education & Curriculum Studies",
     email: "ao.fadahunsi@ui.edu.ng",
     qualifications: "B.Sc. (UI), M.Ed. (UI), Ph.D. (Ibadan)",
-    researchInterests: ["Curriculum Reform", "Science Teacher Education", "STEM Policy"],
+    researchInterests: [
+      "Curriculum Reform",
+      "Science Teacher Education",
+      "STEM Policy",
+    ],
     imageInitials: "AF",
     color: "#003366",
   },
@@ -119,7 +202,11 @@ export const academicStaff = [
     specialization: "Physics Education & Instructional Technology",
     email: "ni.okafor@ui.edu.ng",
     qualifications: "B.Sc. (UNILAG), M.Ed. (UI), Ph.D. (UI)",
-    researchInterests: ["Physics Pedagogy", "Conceptual Change", "Laboratory Learning"],
+    researchInterests: [
+      "Physics Pedagogy",
+      "Conceptual Change",
+      "Laboratory Learning",
+    ],
     imageInitials: "NO",
     color: "#004080",
   },
@@ -130,7 +217,11 @@ export const academicStaff = [
     specialization: "Computer Science Education",
     email: "es.nwosu@ui.edu.ng",
     qualifications: "B.Sc. (UNN), M.Sc. (UI), Ph.D. (UI)",
-    researchInterests: ["Coding Education", "EdTech Integration", "Computational Thinking"],
+    researchInterests: [
+      "Coding Education",
+      "EdTech Integration",
+      "Computational Thinking",
+    ],
     imageInitials: "EN",
     color: "#0055a5",
   },
@@ -141,7 +232,11 @@ export const academicStaff = [
     specialization: "Mathematics Education",
     email: "at.salami@ui.edu.ng",
     qualifications: "B.Sc. (OAU), M.Ed. (UI), Ph.D. (UI)",
-    researchInterests: ["Mathematics Anxiety", "Problem-Based Learning", "Assessment"],
+    researchInterests: [
+      "Mathematics Anxiety",
+      "Problem-Based Learning",
+      "Assessment",
+    ],
     imageInitials: "AS",
     color: "#003366",
   },
@@ -152,7 +247,11 @@ export const academicStaff = [
     specialization: "Biology Education & Environmental Science",
     email: "fa.adeleke@ui.edu.ng",
     qualifications: "B.Sc. (UI), M.Ed. (ABU), Ph.D. (UI)",
-    researchInterests: ["Environmental Education", "Biology Curriculum", "Gender in STEM"],
+    researchInterests: [
+      "Environmental Education",
+      "Biology Curriculum",
+      "Gender in STEM",
+    ],
     imageInitials: "FA",
     color: "#004080",
   },
@@ -163,7 +262,11 @@ export const academicStaff = [
     specialization: "Technology Education & TVET",
     email: "co.eze@ui.edu.ng",
     qualifications: "B.Tech. (FUTO), M.Ed. (UI), Ph.D. (UI)",
-    researchInterests: ["Technical Education", "Vocational Training", "Industry Partnerships"],
+    researchInterests: [
+      "Technical Education",
+      "Vocational Training",
+      "Industry Partnerships",
+    ],
     imageInitials: "CE",
     color: "#0055a5",
   },
@@ -174,7 +277,11 @@ export const academicStaff = [
     specialization: "Chemistry Education",
     email: "rb.yusuf@ui.edu.ng",
     qualifications: "B.Sc. (UI), M.Ed. (UI), Ph.D. (Ibadan)",
-    researchInterests: ["Constructivist Chemistry Teaching", "Practical Chemistry", "Inquiry-Based Learning"],
+    researchInterests: [
+      "Constructivist Chemistry Teaching",
+      "Practical Chemistry",
+      "Inquiry-Based Learning",
+    ],
     imageInitials: "RY",
     color: "#003366",
   },
@@ -185,19 +292,53 @@ export const academicStaff = [
     specialization: "Educational Technology",
     email: "ta.balogun@ui.edu.ng",
     qualifications: "B.Ed. (UI), M.Ed. (UI)",
-    researchInterests: ["Digital Learning Tools", "Blended Learning", "E-Assessment"],
+    researchInterests: [
+      "Digital Learning Tools",
+      "Blended Learning",
+      "E-Assessment",
+    ],
     imageInitials: "TB",
     color: "#004080",
   },
 ];
 
 export const nonAcademicStaff = [
-  { id: 1, name: "Mrs. Blessing O. Adamu", role: "Principal Administrative Officer", email: "bo.adamu@ui.edu.ng" },
-  { id: 2, name: "Mr. Seun F. Olatunji", role: "Senior Technical Officer (Lab)", email: "sf.olatunji@ui.edu.ng" },
-  { id: 3, name: "Miss Amina K. Ibrahim", role: "Administrative Secretary", email: "ak.ibrahim@ui.edu.ng" },
-  { id: 4, name: "Mr. David O. Ajayi", role: "Computer Laboratory Technician", email: "do.ajayi@ui.edu.ng" },
-  { id: 5, name: "Mrs. Grace E. Okoro", role: "Confidential Secretary", email: "ge.okoro@ui.edu.ng" },
-  { id: 6, name: "Mr. Yemi A. Fasanya", role: "Library Officer", email: "ya.fasanya@ui.edu.ng" },
+  {
+    id: 1,
+    name: "Mrs. Blessing O. Adamu",
+    role: "Principal Administrative Officer",
+    email: "bo.adamu@ui.edu.ng",
+  },
+  {
+    id: 2,
+    name: "Mr. Seun F. Olatunji",
+    role: "Senior Technical Officer (Lab)",
+    email: "sf.olatunji@ui.edu.ng",
+  },
+  {
+    id: 3,
+    name: "Miss Amina K. Ibrahim",
+    role: "Administrative Secretary",
+    email: "ak.ibrahim@ui.edu.ng",
+  },
+  {
+    id: 4,
+    name: "Mr. David O. Ajayi",
+    role: "Computer Laboratory Technician",
+    email: "do.ajayi@ui.edu.ng",
+  },
+  {
+    id: 5,
+    name: "Mrs. Grace E. Okoro",
+    role: "Confidential Secretary",
+    email: "ge.okoro@ui.edu.ng",
+  },
+  {
+    id: 6,
+    name: "Mr. Yemi A. Fasanya",
+    role: "Library Officer",
+    email: "ya.fasanya@ui.edu.ng",
+  },
 ];
 
 export const newsItems = [
@@ -206,7 +347,8 @@ export const newsItems = [
     category: "Award",
     date: "March 28, 2025",
     title: "DSTE Wins Best Education Research Department at NUC Awards 2025",
-    excerpt: "The Department of Science and Technology Education was honoured with the Best Education Research Department award at the 2025 National Universities Commission Excellence Awards held in Abuja.",
+    excerpt:
+      "The Department of Science and Technology Education was honoured with the Best Education Research Department award at the 2025 National Universities Commission Excellence Awards held in Abuja.",
     image: null,
     featured: true,
   },
@@ -214,8 +356,10 @@ export const newsItems = [
     id: 2,
     category: "Partnership",
     date: "March 15, 2025",
-    title: "New MoU Signed with Nigerian Educational Research and Development Council",
-    excerpt: "The department formalised a partnership with NERDC aimed at co-developing next-generation science curriculum materials for Nigerian secondary schools.",
+    title:
+      "New MoU Signed with Nigerian Educational Research and Development Council",
+    excerpt:
+      "The department formalised a partnership with NERDC aimed at co-developing next-generation science curriculum materials for Nigerian secondary schools.",
     image: null,
     featured: false,
   },
@@ -223,8 +367,10 @@ export const newsItems = [
     id: 3,
     category: "Publication",
     date: "February 22, 2025",
-    title: "Faculty Members Publish Landmark Study in International Journal of Science Education",
-    excerpt: "Drs. Adeleke and Yusuf co-authored a major study on inquiry-based science learning outcomes in West African schools, now published in a leading international peer-reviewed journal.",
+    title:
+      "Faculty Members Publish Landmark Study in International Journal of Science Education",
+    excerpt:
+      "Drs. Adeleke and Yusuf co-authored a major study on inquiry-based science learning outcomes in West African schools, now published in a leading international peer-reviewed journal.",
     image: null,
     featured: false,
   },
@@ -233,7 +379,8 @@ export const newsItems = [
     category: "Achievement",
     date: "February 5, 2025",
     title: "PhD Student Wins Pan-African STEM Education Innovation Prize",
-    excerpt: "Doctoral candidate Mr. Ibrahim Musa was awarded the Pan-African STEM Education Innovation Prize for his groundbreaking work on mobile-based science learning in underserved communities.",
+    excerpt:
+      "Doctoral candidate Mr. Ibrahim Musa was awarded the Pan-African STEM Education Innovation Prize for his groundbreaking work on mobile-based science learning in underserved communities.",
     image: null,
     featured: false,
   },
@@ -242,7 +389,8 @@ export const newsItems = [
     category: "Grant",
     date: "January 18, 2025",
     title: "Department Secures ₦45 Million TETFund Research Grant",
-    excerpt: "The department has been awarded a significant TETFund research grant to investigate the integration of artificial intelligence tools in tertiary science education across Nigeria.",
+    excerpt:
+      "The department has been awarded a significant TETFund research grant to investigate the integration of artificial intelligence tools in tertiary science education across Nigeria.",
     image: null,
     featured: false,
   },
@@ -251,7 +399,8 @@ export const newsItems = [
     category: "Announcement",
     date: "January 10, 2025",
     title: "Call for Applications: 2025/2026 Postgraduate Admissions Now Open",
-    excerpt: "The department invites qualified candidates to apply for M.Ed. and Ph.D. programmes in Science, Technology, and Mathematics Education for the 2025/2026 academic session.",
+    excerpt:
+      "The department invites qualified candidates to apply for M.Ed. and Ph.D. programmes in Science, Technology, and Mathematics Education for the 2025/2026 academic session.",
     image: null,
     featured: false,
   },
@@ -265,7 +414,8 @@ export const events = [
     time: "9:00 AM",
     location: "Faculty of Education Auditorium, UI",
     type: "Conference",
-    description: "A two-day colloquium bringing together researchers, educators, and policymakers to present findings and discuss the future of STEM education in Nigeria.",
+    description:
+      "A two-day colloquium bringing together researchers, educators, and policymakers to present findings and discuss the future of STEM education in Nigeria.",
     isUpcoming: true,
   },
   {
@@ -275,7 +425,8 @@ export const events = [
     time: "10:00 AM – 3:00 PM",
     location: "ICT Centre, University of Ibadan",
     type: "Workshop",
-    description: "A hands-on workshop for educators on leveraging AI-powered tools including ChatGPT, Gemini, and subject-specific platforms for classroom science instruction.",
+    description:
+      "A hands-on workshop for educators on leveraging AI-powered tools including ChatGPT, Gemini, and subject-specific platforms for classroom science instruction.",
     isUpcoming: true,
   },
   {
@@ -285,7 +436,8 @@ export const events = [
     time: "9:00 AM – 2:00 PM",
     location: "DSTE Department, Faculty of Education",
     type: "Open Day",
-    description: "Prospective students and their guardians are invited to tour the department, meet faculty, and learn about our programmes, scholarships, and career opportunities.",
+    description:
+      "Prospective students and their guardians are invited to tour the department, meet faculty, and learn about our programmes, scholarships, and career opportunities.",
     isUpcoming: true,
   },
   {
@@ -295,7 +447,8 @@ export const events = [
     time: "2:00 PM",
     location: "Trenchard Hall, University of Ibadan",
     type: "Inaugural Lecture",
-    description: "Prof. Ngozi Okafor delivers her inaugural lecture titled 'From Classroom to Career: Reimagining Physics Education for the 21st-Century African Student'.",
+    description:
+      "Prof. Ngozi Okafor delivers her inaugural lecture titled 'From Classroom to Career: Reimagining Physics Education for the 21st-Century African Student'.",
     isUpcoming: true,
   },
   {
@@ -305,7 +458,8 @@ export const events = [
     time: "8:00 AM – 1:00 PM",
     location: "Various Partner Schools, Ibadan",
     type: "Outreach",
-    description: "DSTE students and staff visit partner secondary schools to inspire the next generation of scientists and technologists through interactive experiments and mentorship.",
+    description:
+      "DSTE students and staff visit partner secondary schools to inspire the next generation of scientists and technologists through interactive experiments and mentorship.",
     isUpcoming: true,
   },
 ];
@@ -315,7 +469,8 @@ export const researchClusters = [
     id: 1,
     title: "STEM Pedagogy & Curriculum Innovation",
     lead: "Prof. A.O. Fadahunsi",
-    description: "Investigating transformative approaches to science, technology, engineering, and mathematics curriculum design and instructional delivery at all educational levels.",
+    description:
+      "Investigating transformative approaches to science, technology, engineering, and mathematics curriculum design and instructional delivery at all educational levels.",
     projects: 7,
     publications: 34,
     icon: "🔬",
@@ -324,7 +479,8 @@ export const researchClusters = [
     id: 2,
     title: "Educational Technology & Digital Learning",
     lead: "Dr. E.S. Nwosu",
-    description: "Exploring the integration of digital tools, artificial intelligence, and emerging technologies to enhance learning outcomes in science and technology education.",
+    description:
+      "Exploring the integration of digital tools, artificial intelligence, and emerging technologies to enhance learning outcomes in science and technology education.",
     projects: 5,
     publications: 22,
     icon: "💻",
@@ -333,7 +489,8 @@ export const researchClusters = [
     id: 3,
     title: "Teacher Professional Development",
     lead: "Dr. F.A. Adeleke",
-    description: "Designing and evaluating evidence-based professional development programmes that transform science and mathematics teacher knowledge, practice, and identity.",
+    description:
+      "Designing and evaluating evidence-based professional development programmes that transform science and mathematics teacher knowledge, practice, and identity.",
     projects: 4,
     publications: 19,
     icon: "👩‍🏫",
@@ -342,7 +499,8 @@ export const researchClusters = [
     id: 4,
     title: "Science Communication & Public Engagement",
     lead: "Dr. R.B. Yusuf",
-    description: "Developing strategies for effective science communication, promoting scientific literacy, and fostering public understanding of science and technology.",
+    description:
+      "Developing strategies for effective science communication, promoting scientific literacy, and fostering public understanding of science and technology.",
     projects: 3,
     publications: 11,
     icon: "📡",
@@ -350,15 +508,39 @@ export const researchClusters = [
 ];
 
 export const galleryImages = [
-  { id: 1, caption: "Laboratory practical session — Chemistry Education students", category: "Academics" },
+  {
+    id: 1,
+    caption: "Laboratory practical session — Chemistry Education students",
+    category: "Academics",
+  },
   { id: 2, caption: "Annual Research Colloquium 2024", category: "Events" },
-  { id: 3, caption: "STEM Outreach Day at Government College Ibadan", category: "Outreach" },
-  { id: 4, caption: "Graduation ceremony — Class of 2024", category: "Graduation" },
-  { id: 5, caption: "Faculty workshop on innovative pedagogy", category: "Training" },
-  { id: 6, caption: "Computer laboratory — Technology Education students", category: "Academics" },
+  {
+    id: 3,
+    caption: "STEM Outreach Day at Government College Ibadan",
+    category: "Outreach",
+  },
+  {
+    id: 4,
+    caption: "Graduation ceremony — Class of 2024",
+    category: "Graduation",
+  },
+  {
+    id: 5,
+    caption: "Faculty workshop on innovative pedagogy",
+    category: "Training",
+  },
+  {
+    id: 6,
+    caption: "Computer laboratory — Technology Education students",
+    category: "Academics",
+  },
   { id: 7, caption: "International conference delegation", category: "Events" },
   { id: 8, caption: "Student project presentation day", category: "Academics" },
-  { id: 9, caption: "Welcome address — New student orientation", category: "Events" },
+  {
+    id: 9,
+    caption: "Welcome address — New student orientation",
+    category: "Events",
+  },
 ];
 
 export const stats = [
@@ -406,10 +588,46 @@ export const admissionsInfo = {
 };
 
 export const studentResources = [
-  { title: "Course Registration Portal", description: "Register for courses, view timetables, and manage your academic record on the UI Student Portal.", link: "#", icon: "📋" },
-  { title: "e-Library Access", description: "Access thousands of journals, textbooks, and research databases through the University of Ibadan Library portal.", link: "#", icon: "📚" },
-  { title: "Examination Guidelines", description: "Important rules, regulations, and schedules for all departmental and faculty examinations.", link: "#", icon: "📝" },
-  { title: "Research & Thesis Support", description: "Guidelines, templates, and resources for undergraduate projects and postgraduate theses/dissertations.", link: "#", icon: "🔍" },
-  { title: "Student Welfare & Counselling", description: "Access mental health support, academic counselling, and student welfare services at the University.", link: "#", icon: "💙" },
-  { title: "Scholarships & Bursaries", description: "Information on available scholarships, TETFund bursaries, and financial aid opportunities for DSTE students.", link: "#", icon: "🏆" },
+  {
+    title: "Course Registration Portal",
+    description:
+      "Register for courses, view timetables, and manage your academic record on the UI Student Portal.",
+    link: "#",
+    icon: "📋",
+  },
+  {
+    title: "e-Library Access",
+    description:
+      "Access thousands of journals, textbooks, and research databases through the University of Ibadan Library portal.",
+    link: "#",
+    icon: "📚",
+  },
+  {
+    title: "Examination Guidelines",
+    description:
+      "Important rules, regulations, and schedules for all departmental and faculty examinations.",
+    link: "#",
+    icon: "📝",
+  },
+  {
+    title: "Research & Thesis Support",
+    description:
+      "Guidelines, templates, and resources for undergraduate projects and postgraduate theses/dissertations.",
+    link: "#",
+    icon: "🔍",
+  },
+  {
+    title: "Student Welfare & Counselling",
+    description:
+      "Access mental health support, academic counselling, and student welfare services at the University.",
+    link: "#",
+    icon: "💙",
+  },
+  {
+    title: "Scholarships & Bursaries",
+    description:
+      "Information on available scholarships, TETFund bursaries, and financial aid opportunities for DSTE students.",
+    link: "#",
+    icon: "🏆",
+  },
 ];

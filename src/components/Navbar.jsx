@@ -87,7 +87,7 @@ export default function Navbar() {
             <div className="nav-logo-text">
               <span className="nav-logo-short">STESA</span>
               <span className="nav-logo-full">
-                Dept. of Science & Technology Education Student Association
+                Science and Technology Education Student Association
               </span>
             </div>
           </a>
