@@ -176,11 +176,10 @@ function AboutSection() {
           </h2>
           <div className="gold-rule" />
           <p className="about-body">
-            The Department of Science and Technology Education Student
-            Association (STESA), Faculty of Education, University of Ibadan,
-            stands as one of Nigeria's most distinguished centres for the study
-            and advancement of science, technology, engineering, and mathematics
-            (STEM) education.
+            The Department of Science and Technology Education (STE), Faculty of
+            Education, University of Ibadan, stands as one of Nigeria's most
+            distinguished centres for the study and advancement of science,
+            technology, engineering, and mathematics (STEM) education.
           </p>
           <p className="about-body">
             Founded on the principles of academic rigour, innovative pedagogy,
@@ -226,7 +225,7 @@ function AboutSection() {
             </div>
           </div>
           <div className="about-badge">
-            <span className="about-badge-num">75+</span>
+            <span className="about-badge-num">5+</span>
             <span className="about-badge-text">Years of Excellence</span>
           </div>
         </div>
