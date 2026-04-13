@@ -6,14 +6,14 @@
 
 export const siteConfig = {
   deptName: "Department of Science and Technology Education",
-  shortName: "DSTE",
+  shortName: "STE",
   faculty: "Faculty of Education",
   university: "University of Ibadan",
   email: "dste@ui.edu.ng",
   phone: "+234 802 345 6789",
   address:
     "Faculty of Education Building, University of Ibadan, Ibadan, Oyo State, Nigeria",
-  officeHours: "Monday – Friday: 8:00 AM – 4:00 PM",
+  officeHours: "Monday – Friday: 8:00 AM – 6:00 PM",
 };
 
 export const navLinks = [
@@ -647,8 +647,8 @@ export const galleryImages = [
 ];
 
 export const stats = [
-  { value: "450+", label: "Current Students" },
-  { value: "8", label: "Academic Staff" },
+  { value: "200+", label: "Current Students" },
+  { value: "17", label: "Academic Staff" },
   { value: "120+", label: "Research Publications" },
   { value: "6", label: "Degree Programmes" },
 ];

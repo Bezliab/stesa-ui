@@ -28,26 +28,36 @@ export default function AboutPage() {
             <h2 className="section-title">Our Story</h2>
             <div className="gold-rule" />
             <p>
-              The Department of Science and Technology Education was established
-              as part of the Faculty of Education at the University of Ibadan —
-              Nigeria's oldest and most prestigious university — with the
-              mandate to train world-class educators in science, mathematics,
-              and technology disciplines.
+              The Faculty of Education came into being in 1962 when the then
+              Institute of Education (founded in 1957) and the Department of
+              Extra-Mural Studies (founded in 1949) were merged together and
+              called "Faculty of Education and Extra-Mural Studies". It was
+              based in the present Faculty of Arts until it moved to its present
+              site in 1967. In the year of its inception in 1962, the Institute
+              of Education started the Bachelor of Education Programme and was
+              renamed the Department and Institute of Education that same year.
             </p>
             <p>
-              Since its founding, the department has grown from a small unit
-              into one of the most dynamic and productive academic departments
-              in education across sub-Saharan Africa, producing graduates who
-              have gone on to distinguished careers in teaching, research,
-              curriculum development, policy, and educational leadership at the
-              national and international levels.
-            </p>
-            <p>
-              Over the decades, the department has continuously evolved its
-              programmes, research agenda, and community engagements in response
-              to the changing demands of science and technology in the Nigerian
-              and global contexts. Today, STESA stands as a beacon of academic
-              excellence, innovation, and socially responsive scholarship.
+              From 1974/75 session, new departments were created from this
+              initial set-up. These were the Departments of Physical and Health
+              Education (1975/76) - now called Human Kinetics and Health
+              Education, Educational Management, Guidance and Counseling and
+              Special Education, all in 1976/77 session. The former Department
+              and Institute was then re-designated the Department of Teacher
+              Education. Thus, the department is not only the mother department;
+              she remains the centre of both academic and professional
+              activities within the present Faculty of Education till 2015/16
+              academic session. The department further broke into three
+              departments namely Early Childhood and Educational Foundations,
+              Arts and Social Sciences Education and Science and Technology
+              Education. These new departments are conceived on demand by the
+              National University Commission. The Department was mandated by
+              National University Commission (2017) to change the nomenclature
+              of the degree to B.Sc. (Ed) in all the Science subjects:
+              Chemistry, Physics, Biology and Mathematics. This mandate was as a
+              result of global practices and that for a qualification as a
+              science teacher, prospective candidate must offer 75.0% of courses
+              from the cognate discipline.
             </p>
 
             <div className="info-timeline">
@@ -58,34 +68,27 @@ export default function AboutPage() {
                     "University of Ibadan established as the first Nigerian university",
                 },
                 {
-                  year: "1950s",
+                  year: "1962",
                   event:
-                    "Faculty of Education created to support teacher training",
+                    "Faculty of Education came into being with the merging of the then Institute of Education and the Department of Extra-Mural Studies",
                 },
                 {
-                  year: "1970s",
+                  year: "1967",
                   event:
-                    "Science Education formalised as a distinct academic unit",
+                    "Moved to present site from the present Faculty of Arts building",
                 },
                 {
-                  year: "1990s",
-                  event:
-                    "Postgraduate programmes (M.Ed. and Ph.D.) established",
+                  year: "1974/75",
+                  event: "Creation o fnew departments",
                 },
                 {
-                  year: "2000s",
+                  year: "1976/77",
                   event:
-                    "Technology Education and Computer Education tracks introduced",
+                    "Redesignation of the former Department and Institute to Department of Teacher Education",
                 },
                 {
-                  year: "2010s",
-                  event:
-                    "Research output expanded; international partnerships developed",
-                },
-                {
-                  year: "2020s",
-                  event:
-                    "Department embraces STEM integration and digital pedagogy",
+                  year: "2016/17",
+                  event: "Techer Education split into ASSE, ECE & STE",
                 },
               ].map((item) => (
                 <div key={item.year} className="timeline-item fade-up">
@@ -102,8 +105,8 @@ export default function AboutPage() {
               <h4>Department at a Glance</h4>
               <div className="sidebar-stats">
                 {[
-                  { label: "Current Students", value: "450+" },
-                  { label: "Academic Staff", value: "8" },
+                  { label: "Current Students", value: "200+" },
+                  { label: "Academic Staff", value: "17" },
                   { label: "Research Publications", value: "120+" },
                   { label: "Degree Programmes", value: "6" },
                   { label: "Research Clusters", value: "4" },
@@ -122,9 +125,9 @@ export default function AboutPage() {
               <div className="sidebar-contacts">
                 <div className="sidebar-contact-item">
                   <strong>Head of Department</strong>
-                  <span>Prof. A.O. Fadahunsi</span>
-                  <a href="mailto:ao.fadahunsi@ui.edu.ng">
-                    ao.fadahunsi@ui.edu.ng
+                  <span>Dr Adetunmbi L. Akinyemi</span>
+                  <a href="mailto:la.adetunmbi@ui.edu.ng">
+                    la.adetunmbi@ui.edu.ng
                   </a>
                 </div>
                 <div className="sidebar-contact-item">
@@ -134,7 +137,7 @@ export default function AboutPage() {
                 </div>
                 <div className="sidebar-contact-item">
                   <strong>Office Hours</strong>
-                  <span>Mon–Fri: 8:00 AM – 4:00 PM</span>
+                  <span>Mon–Fri: 8:00 AM – 6:00 PM</span>
                 </div>
               </div>
             </div>
@@ -162,21 +165,19 @@ export default function AboutPage() {
               <div className="vm-icon">👁️</div>
               <h3 className="vm-title">Vision</h3>
               <p className="vm-text">
-                To be a world-class centre for the study, practice, and
-                advancement of science and technology education, producing
-                transformative educators and researchers who drive sustainable
-                development in Nigeria and across the African continent.
+                Our vision is to be a top-tier institution renowned for academic
+                excellence and enduring social relevance.
               </p>
             </div>
             <div className="vm-card fade-up delay-2">
               <div className="vm-icon">🎯</div>
               <h3 className="vm-title">Mission</h3>
               <p className="vm-text">
-                To provide an intellectually stimulating and inclusive
-                environment for the training of highly competent science and
-                technology educators; to generate and disseminate knowledge
-                through rigorous research; and to engage communities in
-                advancing STEM literacy and educational quality across Nigeria.
+                Our mission is to expand the frontiers of knowledge, produce
+                graduate teachers of strong character and professional
+                competence, and contribute meaningfully to societal
+                transformation through research, innovation, and community
+                engagement.
               </p>
             </div>
           </div>
